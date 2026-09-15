@@ -1,0 +1,16 @@
+torch
+torchvision
+mmengine
+mmcv
+mmsegmentation
+mmdet
+numpy
+pandas
+opencv-python
+rasterio
+shapely
+geopandas
+scikit-learn
+matplotlib
+tqdm
+wandb

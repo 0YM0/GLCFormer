@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Experiments, data, and model artifacts
+/data/
+/datasets/
+work_dirs/
+wandb/
+outputs/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Large geospatial / array artifacts
+*.tif
+*.tiff
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.gpkg
+*.geojson
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Copied but not part of the cleaned GLCFormer release
+utils/satellite_graph/construction/Type4/
+utils/satellite_graph/construction/Type5/
+utils/satellite_graph/construction/Type6/
+mmgeo/models/swin_candidate_context_consistency_graph_fusion.py
+mmgeo/models/swin_context_only_graph_fusion.py
+mmgeo/models/swin_hybrid_hierarchical_context_graph_fusion.py
+mmgeo/models/swin_masked_schema_context_graph_fusion.py
+mmgeo/models/swin_motif_graph_fusion.py
+mmgeo/models/swin_schema_instance_graph_fusion.py
+mmgeo/models/swin_type6_global_local_semantic_graph_fusion.py
+mmgeo/models/motif_graph.py
+mmgeo/models/type6_semantic_graph.py
+mmgeo/models/segmentors/slide_encoder_decoder_context_only.py
+mmgeo/models/segmentors/slide_encoder_decoder_hybrid_context.py
+mmgeo/models/segmentors/slide_encoder_decoder_masked_schema_context.py
+mmgeo/models/segmentors/slide_encoder_decoder_motif.py
+mmgeo/models/segmentors/slide_encoder_decoder_schema_instance.py
+mmgeo/models/segmentors/slide_encoder_decoder_type6.py
+mmgeo/datasets/semseg/transforms/loading_context_only_graph.py
+mmgeo/datasets/semseg/transforms/loading_hybrid_hierarchical_context_graph.py
+mmgeo/datasets/semseg/transforms/loading_masked_schema_context_graph.py
+mmgeo/datasets/semseg/transforms/loading_motif_graph.py
+mmgeo/datasets/semseg/transforms/loading_schema_instance_graph.py
+mmgeo/datasets/semseg/transforms/loading_type6_graph.py
