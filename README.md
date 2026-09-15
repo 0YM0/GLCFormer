@@ -30,7 +30,7 @@ Presented at **IEIE 2026**.
 
 [📄 View full poster (PDF)](assets/IEIE2026_GLCFormer_Poster.pdf)
 
-![GLCFormer Poster](assets/IEIE2026_GLCFormer_Poster.png)
+[![GLCFormer Poster](assets/IEIE2026_GLCFormer_Poster.png)](assets/IEIE2026_GLCFormer_Poster.png)
 
 
 ## Repository layout
