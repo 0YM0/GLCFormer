@@ -2,7 +2,6 @@
 
 Official cleaned code release for **GLCFormer**, a graph-enhanced land-cover fusion model for greenhouse/barn segmentation from remote-sensing imagery.
 
-This repository contains code only. Datasets, generated graph files, experiment logs, and model checkpoints are intentionally excluded.
 
 ## Overview
 
@@ -82,18 +81,4 @@ python tools/train_semseg.py configs/glcformer_swin_b_upernet_geolink_v3.py
 
 Update `data_root`, `data_list_path`, and graph directory paths in the config before training on a new machine.
 
-## Sanity checks
 
-Shape-level checks for the graph fusion modules are included:
-
-```bash
-python tools/test_swin_geolink_graph_fusion_shape.py
-python tools/test_swin_geolink_graph_fusion_v2_shape.py
-python tools/test_v3_graph_fusion_shape.py
-```
-
-## Notes
-
-- This release is code-only.
-- Paths in the config are relative placeholders and should be adjusted for your environment.
-- Pretrained Swin weights are referenced through the public OpenMMLab checkpoint URL in the config.
