@@ -1,6 +1,6 @@
 # GLCFormer
 
-Official cleaned code release for **GLCFormer**, a graph-enhanced land-cover fusion model for greenhouse/barn segmentation from remote-sensing imagery.
+Official cleaned code release for **GLCFormer**, a graph-enhanced land-cover fusion model for barn segmentation from remote-sensing imagery.
 
 
 ## Overview
